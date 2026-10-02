@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "anomalousworld",
+  "version": "${version}",
+  "name": "Anomalous World Generator",
+  "description": "Procedural, deterministic world generation framework featuring multi-scale distance regimes, directional Farlands, regional world laws, and emergent anomalies.",
+  "authors": [
+    "Autonomous Fabric Architect"
+  ],
+  "contact": {
+    "homepage": "https://github.com/anomalousworld/mod",
+    "sources": "https://github.com/anomalousworld/mod"
+  },
+  "license": "MIT",
+  "icon": "assets/anomalousworld/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.anomalousworld.AnomalousWorldMod"
+    ],
+    "client": [
+      "com.anomalousworld.client.AnomalousWorldClientMod"
+    ]
+  },
+  "mixins": [
+    "anomalousworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "jjthunder": "*"
+  }
+}

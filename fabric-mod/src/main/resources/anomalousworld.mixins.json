@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.anomalousworld.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FireworkRocketItemMixin",
+    "FluidBlockMixin",
+    "EntityMovementMixin",
+    "CompassItemMixin",
+    "EntityVoidDamageMixin",
+    "BuildHeightMixin"
+  ],
+  "client": [
+    "DebugHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Anomalous World Generator - Fabric 1.21.1 Studio & Mod",
+  "description": "Deterministic procedural world generation and regional world-law anomalies mod for Minecraft Java Edition 1.21.1 (Fabric). Includes real-time seed simulation, Farlands lattice visualizer, and complete Java source export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
